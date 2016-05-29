@@ -1,0 +1,82 @@
+body{
+    background: white;
+    background-image:url('bg.jpg');
+    background-repeat:repeat-x ;
+    width: 100%;
+    height: auto;
+    margin:0px;;
+    padding:0px;
+    color: #191970;
+    font-size: 14px;
+}
+
+.header{
+    background: white;
+    height: auto;
+    border: 0px solid red;
+    width: 50%;
+    position: relative;
+    margin-left: 25%;
+}
+
+nav{
+    border: 1px solid white;
+    width:auto;
+    height:auto;
+    list-style: none;
+    text-align: center;
+    
+}
+
+nav li {
+    border: 0px dashed black;
+    display: inline;
+    padding: 5px 30px;
+    text-transform: uppercase;
+    font-family: Times New Roman;
+    font-size: 18px;
+}
+
+.content{
+    border:0px solid red;
+    position: relative;
+    margin-top:0px;
+    margin-left: 25%;
+    width:50%;
+    min-height: 500px;
+    background: white;
+    border-radius: 0px 0px 5px 5px;
+    -moz-border-radius: 0px 0px 5px 5px;
+    -webkit-border-radius: 0px 0px 5px 5px;
+}
+
+.content-text{
+    padding-left: 10px;
+    padding-right: 0px;
+    overflow: hidden;
+
+}
+
+.footer{
+    border:0px solid red;
+
+    margin-top: 30px;
+    margin-left: 25%;
+    width:50%;
+    min-height: 60px;
+    background: white;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    text-align: center;
+}
+
+nav li a, nav li a:link, nav li a:visited{
+    color: #191970;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #191970;
+    text-decoration: underline;
+}

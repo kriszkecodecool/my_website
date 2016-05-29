@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My site</title>
+        <meta charset="UTF-8">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="header">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Second</a></li>
+                    <li><a href="#">Third</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <hr/>
+            </nav>
+        </div>
+       <div class="content">
+           <div class="content-text">
+               <b>Home</b>
+                <hr/>
+		<form id="contact_form" method="POST">
+            <div class="row">
+                <label for="name">Name</label><br/>
+                <input id="name" class="input" name="name" type="text" value="" size="40"/><br/>
+            </div>
+            <div class="row">
+                <label for="email">E-mail</label><br/>
+                <input id="email" class="input" name="email" type="text" value="" size="40"/><br/>
+            </div>
+            <div class="row">
+                <label for="message">Message</label><br/>
+                <textarea id="message" class="input" name="message" rows="7" cols="41"></textarea><br/>
+            </div>
+            <!--<input id="submit_button" type="submit" value="SEND" />-->
+            <input type="submit" id="Button" value="Send"/>
+        </form>
+           </div>
+       </div>
+       <div class="footer">Footer contents</div>
+    </body>
+</html>
+<script type="text/javascript" src="main.js"></script>
